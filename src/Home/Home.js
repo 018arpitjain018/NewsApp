@@ -23,7 +23,7 @@ export default class Home extends Component {
     }
 
     fetchNews = () => {
-        url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=' + 'YOUR_API_KEY'
+        url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=' + '2519467fa1784bd1af4f1b00d9a54ceb'
         try {
             fetch(
                 url
